@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gioco BlackJack</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;200;300;400;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+	<body>
+		<div id="cont">
+			<div id="header">
+				<div id="accounthtml">
+					<div>CASH</div>
+					<div id="outaccount">50 $</div>
+				</div>
+			</div>
+			<div id="bank"></div>
+			<h1 id="blackjack">BLACK&nbsp;&nbsp;JACK</h1>
+			<div id="out"></div>
+		</div>
+		<div id="tokenss">
+			<div id="boxtokens">
+				<div class="token">1</div>
+				<div class="token">5</div>
+				<div class="token">10</div>
+				<div class="token">all</div>
+				<div id="bet">
+					<div>BET</div>
+					 <div id="betupdate">0$</div>
+				</div>
+				<div class="token">-1</div>
+				<div class="token">-5</div>
+				<div class="token">-10</div>
+				<div class="token" id="cancel">C</div>
+			</div>
+		</div>
+		<div id="btns">
+			<div id="play" class="btn" onClick="start()">PLAY</div>
+			<div id="again" class="btn" onClick="hit()">HIT</div>
+			<div id="double" class="btn" onClick="doubleBet()">DOUBLE</div>
+			<div id="end" class="btn" onClick="stand()">STAND</div>
+			
+		</div>
+		<div id="infos">
+			<div id="info">WON 0$</div>
+		</div>
+		<div id="tryagain">
+			<div id="btnreby" onClick="reBy()">CLICK TO TRY AGAIN !</div>
+		</div>
+	
+	</body>
+</html>
